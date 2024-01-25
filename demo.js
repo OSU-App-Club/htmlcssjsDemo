@@ -6,6 +6,8 @@ document.addEventListener("DOMContentLoaded", function (event) {
     const btn = document.getElementById("clickme");
     btn.addEventListener("click", async () => {
         body.classList.toggle("dark");
+
+        console.log(content.childNodes)
         
         try {
             let randomWord = document.createElement("p");
